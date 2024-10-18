@@ -7,7 +7,7 @@
 body {
     font-size: medium;
     font-weight: 200;
-    background-color: aqua;
+    background-color: azure;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,7 @@ body {
 }
 
 .container {
+    background-color: aqua;
     text-wrap: wrap;
     width: 70%;
     box-shadow: 2px 1px 2px 2px#888888;
@@ -44,14 +45,17 @@ button {
     border-radius: 10px;
     margin: 5px;
 
+
 }
 
 button a {
     text-decoration: none;
     color: white;
+    transition: 2s;
 }
 
 a:hover {
     color: black;
+    box-shadow: 2px 1px 2px 1px #888888;
 
 }
