@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: medium;
+    font-weight: 200;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    text-wrap: wrap;
+    width: 70%;
+    box-shadow: 2px 1px 2px 2px#888888;
+}
+
+h1,
+h2 {
+    color: burlywood;
+}
+
+p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    text-wrap: wrap;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: antiquewhite;
+
+}
